@@ -70,13 +70,13 @@ header {
 .menu a {
   display: block;
   padding: 10px 20px;
-  transition: background-color 1s, color 1s;
+  transition: background-color .5s, color .5s, font-size .5s;
 }
 
 .menu a:active,
 .menu a:hover {
-  background-color: #326966;
-  color: white;
+  background-color: #170918;
+  color: whitesmoke;
   font-size:x-large;
 }
 
@@ -180,13 +180,11 @@ a:hover {
 }
 
 .sobre a:hover {
-  background-color: cyan;
   text-decoration: none;
-  color: magenta;
+  color: teal;
 }
 
 
-}
 
 @media (min-width: 600px) {
   .sobre .avatar {
@@ -228,7 +226,7 @@ a:hover {
 .card {
   position: relative;
   transform-style: preserve-3d;
-  transition: transform 3s;
+  transition: transform 1s;
   border-radius: 25px;
 
   
