@@ -7,11 +7,140 @@
 }
 
 body {
-  background-image: url('../img/backgroud-img.jpg');
+  background: #000009;
   background-size: auto 100vh;
   font-family: 'Patrick Hand', cursive;
   height: 100vh;
   font-size: 12px;
+  color: thistle;
+}
+
+.home .tela{
+  margin-top: 5em;
+  height: 90vh;
+  align-content: center;  
+    
+}
+
+.tela{
+  border-top: 3px solid purple;
+  border-left: 3px solid purple;
+  border-right: 3px solid purple;
+  padding: 2.5em;
+  padding-top: 0;
+  padding-right: 0;
+  margin: 2em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  height: 90vh;
+}
+
+.titulo {
+  text-align: center;
+  align-content: center;
+}
+
+#aaa{
+  height: 8em;
+}
+
+@media(min-width: 360px){
+  .tela{
+    margin: 1.5em;
+    margin-bottom: 2em;
+    padding: 1em;
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  h1{
+    font-size: 2em;
+    text-align: center;
+  }
+}
+
+
+
+@media (min-width: 560px) {
+  .codigos {
+    grid-template-columns: 240px;
+  }
+  .tela{
+    margin: 2em;
+    padding: 1.5em;
+    padding-top: 0;
+    padding-right: 0;
+    
+  }
+
+  h1{
+    font-size: 2em;
+    text-align: start;
+  }
+}
+
+@media (min-width: 666px) {
+  .codigos {
+    grid-template-columns: 240px 240px;
+  }
+  .tela{
+    margin: 2em;
+    padding: 1.5em;
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  h1{
+    font-size: 2em;
+    text-align: start;
+  }
+}
+
+@media (min-width: 880px) {
+  .codigos {
+    grid-template-columns: repeat(2, 240px);
+    justify-content: space-around;
+    height: calc(100vh - 8em - 48px);
+  }
+  .tela{
+    margin: 2em;
+    padding: 2.5em;
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  h1{
+    font-size: 2em;
+    text-align: start;
+  }
+}
+
+@media (min-width: 964px) {
+  .codigos {
+    grid-template-columns: repeat(3, 240px);
+    justify-content: space-around;
+    height: calc(100vh - 8em - 48px);
+  }
+  .tela{
+    margin: 2em;
+    padding: 2.5em;
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  h1{
+    font-size: 2em;
+    text-align: start;
+  }
+}
+
+
+.icones{
+  color: purple;
+  width: 100%;
+  text-align: end;
+  font-weight: 900;
+  font-size: xx-large;
 }
 
 /* se a tela tiver pelo menos 400px vai carregar estes estilos */
@@ -39,14 +168,13 @@ body {
 }
 
 header {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .menu {
-  background-color: #12002C;
+  background-color: rgba(216, 112, 147, .2);
   border-color: black;
   border-style: solid;
   border-width: 5px;
@@ -56,6 +184,8 @@ header {
   top: 0;
   z-index: 1;
   border-radius: 0px 0px 500px 500px;
+  font-family: 'VT323', monospace;
+  font-size: x-large;
 }
 
 .menu ul {
@@ -70,62 +200,45 @@ header {
 .menu a {
   display: block;
   padding: 10px 20px;
+  color: whitesmoke;
   transition: background-color .5s, color .5s, font-size .5s;
 }
 
 .menu a:active,
 .menu a:hover {
-  background-color: #170918;
-  color: whitesmoke;
-  font-size:x-large;
+  background-color: rebeccapurple;
+  font-size:xx-large;
 }
 
 a {
-  color: whitesmoke;
   font-weight: 900;
   font-size: larger;
   text-decoration: none;
+  color: thistle;
 }
 
 a:hover {
   text-decoration: underline;
-}
-
-.titulo {
-  transform: scale(0.2) translateY(50vh);
-  opacity: 0;
-  animation: 1s ease 500ms animacaoTitulo forwards;
-}
-
-@keyframes animacaoTitulo {
-  from {
-    transform: scale(0.2) translateY(50vh);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1) translateY(0);
-    opacity: 1;
-  }
+  color: paleturquoise;
 }
 
 .site-subtitle, 
 .site-title {
-  color: whitesmoke;
   text-align: center;
 }
 
 .site-title {
   font-size: 4em;
   font-weight: 900;
-  font-family: 'Annie Use Your Telescope', cursive;
+  font-family: 'VT323', monospace;
 }
 
 .site-subtitle {
- font-family: 'Merienda', cursive;
+ font-family: 'Fira Code', monospace;
  line-height: 1.8em;
 }
 
-.site-subtitle::after {
+h2::after {
   content: '_';
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 5px;
@@ -145,8 +258,7 @@ a:hover {
 .sobre,
 .contato,
 .portfolio {
-  padding: 2em;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 @media (min-width: 1200px) {
@@ -160,39 +272,32 @@ a:hover {
 .sobre h2,
 .contato h2,
 .portfolio h2 {
-  font-family: 'Merienda', cursive;
-  color: whitesmoke;
-  margin-bottom: 1.5em;
-  font-size: 2em;
+  font-family: 'VT323', monospace;
+  margin-bottom: .5em;
+  font-size: 3em;
 }
 
-.sobre h3,
-.sobre p {
-  color: white;
-  text-indent: 1.4em;
-  margin-bottom: 1.4em;
+.sobre p,
+.sobre ul {
+  margin: 1.5em;
   text-align: justify;
+  list-style: '>>>';
+  text-indent: .7em;
+  font-family: 'Fira Code', monospace;
+}
+.sobre p{
+  margin-top: 10em;
 }
 
 .sobre a {
-  color: white;
+  color: thistle;
   text-decoration: underline;
 }
 
 .sobre a:hover {
   text-decoration: none;
-  color: teal;
+  color: paleturquoise;
 }
-
-
-
-@media (min-width: 600px) {
-  .sobre .avatar {
-    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-    float: right;
-  }
-}
-
 
 .portfolio .grid {
   display: grid;
@@ -214,50 +319,6 @@ a:hover {
   }
 }
 
-.flip-card {
-  height: 180px;
-  perspective: 1000px;
-}
-
-.flip-card:hover .card {
-  transform: rotateY(180deg);
-}
-
-.card {
-  position: relative;
-  transform-style: preserve-3d;
-  transition: transform 1s;
-  border-radius: 25px;
-
-  
-}
-
-.card-front, 
-.card-back {
-  backface-visibility: hidden;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  border-radius: 25px;
-}
-
-.card-back {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: rgba(255, 255, 255, .7);
-  height: 180px;
-  width: 100%;
-  transform: rotateY(180deg);
-}
-
-.card-back h3{
-  color: black;
-  text-shadow: 2px 2px 2px black;
-
-}
 
 .portfolio figure {
   text-align: center;
@@ -268,28 +329,29 @@ a:hover {
   width: 100%;
   object-fit: cover;
   object-position: left bottom;
-  transition: transform 500ms;
   border-radius: 25px;
-
-  
 }
+ .portfolio a:hover{
+  color: paleturquoise;
+ }
 
-/* .img-portfolio:hover {
-  transform: scale(1.2) rotate(-2deg);
-} */
+ .img-portfolio:hover {
+  border: 5px solid purple;
+  border-radius: 25px;
+}
 
 .contato .icons {
   text-align: center;
 }
 
 .contato a {
-  color: whitesmoke;
+  color: thistle;
   font-size: 4em;
-  transition: text-shadow 1s;
+  transition: text-shadow 500ms;
 }
 
 .contato a:active,
 .contato a:hover  {
   text-decoration: none;
-  text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+  text-shadow: 5px 5px 10px paleturquoise;
 }

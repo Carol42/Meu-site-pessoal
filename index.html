@@ -1,40 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caroline H Oliveira</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <link 
-    href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Merienda:wght@400;700&family=Patrick+Hand&display=swap" rel="stylesheet"
-    > 
 
-    <script
-      src="https://kit.fontawesome.com/6d6952c5be.js"
-      crossorigin="anonymous"
-   ></script>
-  </head>
-  <body>
-    <header>
-      <nav class="menu">
-        <ul class="container">
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#portfolio">Projetos</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caroline H Oliveira</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Merienda:wght@400;700&family=Patrick+Hand&css2?family=VT323&css2?family=DM+Mono&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet"> 
+
+  <script src="https://kit.fontawesome.com/6d6952c5be.js" crossorigin="anonymous"></script>
+  
+ 
+</head>
+
+<body>
+  <header>
+    <nav class="menu">
+      <ul class="container">
+        <li><a href="#tela-home">Home</a></li>
+        <li><a href="#tela-sobre" onclick="typeWrite()">Sobre</a></li>
+        <li><a href="#tela-portfolio">Projetos</a></li>
+        <li><a href="#tela-contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<section class="home">
+  <div class="tela" id="tela-home">
+    <table class="icones">
+      <tr>
+        <th>
+          _ ˻ ˼ X
+        </th>
+      </tr>
+    </table>
+    <div id="aaa">
+
+    </div>
       <div class="titulo">
-        <h1 class="site-title">Caroline Heloíse de Oliveira</h1>
-        <h2 class="site-subtitle">jr. frontend developer</h2>
+        <h1 class="site-title">${Caroline Heloíse de Oliveira}</h1>
+        <h2 class="site-subtitle">function (jr. frontend developer){</h2>
       </div>
-    </header>
+  </div>
+</section>
+  <div class="tela" id="tela-sobre">
+    <table class="icones">
+      <tr>
+        <th>
+          _ ˻ ˼ X
+        </th>
+      </tr>
+    </table>
     <section class="sobre container" id="sobre">
       <h2>Sobre</h2>
 
-      <h3>"Brincando com códigos acabei criando um site"</h3>
-      <p>
-       
-      </p>
+    <ul>
+      <li>(Quase) formada em Técnico em Administração;</li>
+      <li>Professora de inglês;</li>
+      <li>Apaixonada por aprender novos idiomas (falo inglês, espanhol e me arrisco no francês);</li>
+      <li>Viciada em solucionar problemas;</li>
+      <li>Desenvolvedora em desenvolvimento;</li>
+      <li>Linguagens: JavaScript, HTML, CSS, SQL, Python, C;</li>
+      <li>function findQuestion(42)</li>
+    </ul>
 
       <p>
         PS: Este site foi construído durante a
@@ -42,27 +74,37 @@
         😻
       </p>
     </section>
+  </div>
+  <div class="tela" id="tela-portfolio">
+    <table class="icones">
+      <tr>
+        <th>
+          _ ˻ ˼ X
+        </th>
+      </tr>
+    </table>
     <section class="portfolio container" id="portfolio">
       <h2>Projetos</h2>
 
       <div class="grid">
-		  
-        <div class="flip-card">
-          <div class="card">
-            <figure class="card-front">
-              <a href="pages/quarentenadev/quarentenadev.html"> <img class="img-portfolio" src="./img/quarentenadev.png" alt="QuarentenaDev"></a>
-            </figure>
-            
-              <div class="card-back">
-                <a href="pages/quarentenadev/quarentenadev.html"><h3>QuarentenaDev<br>Alura</h3></a>
-            </div>
-          </div>
-          </div>
-        </div>
-
-       
-
+        <a href="pages/quarentenadev/quarentenadev.html">
+          <figure>
+            <img class="img-portfolio" src="./img/quarentenadev.png" alt="QuarentenaDev">
+            <figcaption>QuarentenaDev</figcaption>
+          </figure>
+        </a>
+        <a href="https://www.alura.com.br/quarentenadados/"></a>
+      </div>
     </section>
+  </div>
+  <div class="tela" id="tela-contato">
+    <table class="icones">
+      <tr>
+        <th>
+          _ ˻ ˼ X
+        </th>
+      </tr>
+    </table>
     <section class="contato container" id="contato">
       <h2>Contato</h2>
 
@@ -81,5 +123,8 @@
         </a>
       </div>
     </section>
-  </body>
+  </div>
+  <script src="funcoes.js"></script>
+</body>
+
 </html>
