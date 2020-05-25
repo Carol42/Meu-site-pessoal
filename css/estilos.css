@@ -9,23 +9,17 @@
 body {
   background: #000009;
   background-size: auto 100vh;
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Fira Code', monospace;
   height: 100vh;
   font-size: 12px;
-  color: thistle;
+  color: #d8bfd8;
 }
 
-.home .tela{
-  margin-top: 5em;
-  height: 90vh;
-  align-content: center;  
-    
-}
 
 .tela{
-  border-top: 3px solid purple;
-  border-left: 3px solid purple;
-  border-right: 3px solid purple;
+  border-top: 3px solid #800080;
+  border-left: 3px solid #800080;
+  border-right: 3px solid #800080;
   padding: 2.5em;
   padding-top: 0;
   padding-right: 0;
@@ -35,14 +29,15 @@ body {
   height: 90vh;
 }
 
+#tela-contato{
+  height: 100vh;
+}
+
 .titulo {
   text-align: center;
   align-content: center;
 }
 
-#aaa{
-  height: 8em;
-}
 
 @media(min-width: 360px){
   .tela{
@@ -136,12 +131,14 @@ body {
 
 
 .icones{
-  color: purple;
+  color: #800080;
   width: 100%;
   text-align: end;
   font-weight: 900;
   font-size: xx-large;
 }
+
+
 
 /* se a tela tiver pelo menos 400px vai carregar estes estilos */
 @media (min-width: 400px) {
@@ -167,64 +164,117 @@ body {
   }
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.wrap{
+  position: fixed;
+  top: 0;
+  
 }
 
 .menu {
-  background-color: rgba(136, 46, 163, 0.403);
-  border-color: black;
-  border-style: solid;
-  border-width: 5px;
-  border-top: none;
-  position: fixed;
-  width: 90vw;
+  overflow: hidden;
+  position: relative;
   top: 0;
   z-index: 1;
-  border-radius: 0px 0px 500px 500px;
   font-family: 'VT323', monospace;
   font-size: x-large;
 }
 
-.menu ul {
-  display: flex;
-  justify-content: space-around;
-}
 
-.menu li {
- list-style: none; 
+
+.menu #myLinks {
+  display: none;
+  background-color: rgba(136, 46, 163, 0.7);
+  
 }
 
 .menu a {
   display: block;
   padding: 10px 20px;
-  color: whitesmoke;
-  transition: background-color .5s, color .5s, font-size .5s;
+  color: #f5f5f5;
+  transition: background-color .5s, color .5s;
+ 
 }
 
 .menu a:active,
 .menu a:hover {
-  background-color: rebeccapurple;
-  font-size:xx-large;
+  background-color: #663399;
 }
+
+.menu i{
+  width: 72px;
+}
+
+.menu a.icon {
+  background: black;
+  display: block;
+  color: #800080;
+  position: absolute;
+  right: 100;
+  top: 0;
+  width: 52px;
+  height: 42px;
+}
+
+@media (min-width: 360px) {
+  body {
+    font-size: 14px;
+  }
+
+  .menu{
+    font-size: large;
+  }
+
+  #tela-home{
+    margin-top: 3em;
+  }
+  .tela{
+    height: 90vh;
+  } 
+}
+
+@media (min-width: 666px) {
+  body {
+    font-size: 16px;
+  }
+
+  .menu{
+    font-size: x-large;
+ 
+  }
+
+
+  #tela-home{
+    margin-top: 5em;
+  }
+}
+
+
+
 
 a {
   font-weight: 900;
   font-size: larger;
   text-decoration: none;
-  color: thistle;
+  color: #d8bfd8;
 }
 
 a:hover {
   text-decoration: underline;
-  color: paleturquoise;
+  color: #afeeee;
+}
+
+.titulo{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .site-subtitle, 
 .site-title {
   text-align: center;
+
 }
 
 .site-title {
@@ -290,13 +340,13 @@ h2::after {
 }
 
 .sobre a {
-  color: thistle;
+  color: #d8bfd8;
   text-decoration: underline;
 }
 
 .sobre a:hover {
   text-decoration: none;
-  color: paleturquoise;
+  color: #afeeee;
 }
 
 .portfolio .grid {
@@ -331,12 +381,20 @@ h2::after {
   object-position: left bottom;
   border-radius: 25px;
 }
+
+@media (min-width: 360px) {
+  .img-portfolio{
+    width: 85%;
+  }
+}
+
+
  .portfolio a:hover{
-  color: paleturquoise;
+  color: #afeeee;
  }
 
  .img-portfolio:hover {
-  border: 5px solid purple;
+  border: 5px solid #800080;
   border-radius: 25px;
 }
 
@@ -345,7 +403,7 @@ h2::after {
 }
 
 .contato a {
-  color: thistle;
+  color: #d8bfd8;
   font-size: 4em;
   transition: text-shadow 500ms;
 }
@@ -353,5 +411,5 @@ h2::after {
 .contato a:active,
 .contato a:hover  {
   text-decoration: none;
-  text-shadow: 5px 5px 10px paleturquoise;
+  text-shadow: 5px 5px 10px #afeeee;
 }

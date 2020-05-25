@@ -9,6 +9,19 @@ function typeWrite(elemento){
 
   });
 }
-const eu = document.querySelector('.precioso');
+const eu = document.querySelector('.site-subtitle');
 typeWrite(eu);
 
+function showMenu() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+} 
+
+function hideMenu(){
+  var x = document.getElementById("myLinks");
+  x.style.display = "none";
+}

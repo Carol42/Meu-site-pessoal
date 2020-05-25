@@ -14,21 +14,28 @@
 
   <script src="https://kit.fontawesome.com/6d6952c5be.js" crossorigin="anonymous"></script>
   
- 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-  <header>
-    <nav class="menu">
-      <ul class="container">
-        <li><a href="#tela-home">Home</a></li>
-        <li><a href="#tela-sobre" onclick="typeWrite()">Sobre</a></li>
-        <li><a href="#tela-portfolio">Projetos</a></li>
-        <li><a href="#tela-contato">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
-
+  
+   <div class="wrap">
+    <div class="menu">
+      
+      <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a class="active"></a>A</a>
+      <div id="myLinks">
+        <a href="#tela-home" onclick="hideMenu()">Home</a>
+        <a href="#tela-sobre" onclick="hideMenu()">Sobre</a>
+        <a href="#tela-portfolio" onclick="hideMenu()">Projetos</a>
+        <a href="#tela-contato" onclick="hideMenu()">Contato</a>
+      </div>
+    </div>
+   </div>
+    
 <section class="home">
   <div class="tela" id="tela-home">
     <table class="icones">
@@ -38,9 +45,7 @@
         </th>
       </tr>
     </table>
-    <div id="aaa">
-
-    </div>
+  
       <div class="titulo">
         <h1 class="site-title">${Caroline Heloíse de Oliveira}</h1>
         <h2 class="site-subtitle">function (jr. frontend developer){</h2>
