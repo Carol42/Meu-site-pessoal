@@ -8,7 +8,7 @@
   body {
     background: #000009;
     background-size: auto 100vh;
-    font-family: 'Fira Code', monospace;
+    font-family: 'Patrick Hand', cursive;
     height: 100vh;
     font-size: 24px;
     padding: .5em;
@@ -23,6 +23,7 @@
     padding: 2.5em;
     padding-top: 0;
     padding-right: 0;
+    padding-left: 0;
     margin: 2em;
     margin-bottom: 5em;
   }
@@ -36,9 +37,10 @@
   }
   
   h1{
-    font-family: 'VT323', monospace;
+    font-family: 'Merienda', cursive;
     margin-bottom: 1em;
-    font-size: 2em;
+    font-size: 3em;
+    margin-left: 1px;
   }
 
 
@@ -65,7 +67,7 @@
     gap: 2em;
     justify-content: space-around;
     min-height: 100%;
-    padding-right: 2.5em;
+
   }
 
   a{
@@ -77,10 +79,15 @@
   }
 
  @media(min-width: 360px){
+  .codigos {
+    grid-template-columns: 240px;
+    justify-content: center;
+  }
     .tela{
       margin: .3em;
       margin-bottom: 2em;
       padding: 1em;
+      padding-left: 0;
       padding-top: 0;
       padding-right: 0;
     }
@@ -96,10 +103,12 @@
   @media (min-width: 560px) {
     .codigos {
       grid-template-columns: 240px;
+      justify-content: center;
     }
     .tela{
       margin: 1em;
       padding: 1.5em;
+      padding-left: 0;
       padding-top: 0;
       padding-right: 0;
       
@@ -108,16 +117,19 @@
     h1{
       font-size: 2em;
       text-align: start;
+      padding-left: 1em;
     }
   }
 
   @media (min-width: 666px) {
     .codigos {
       grid-template-columns: 240px 240px;
+      justify-content: space-around;
     }
     .tela{
       margin: 1em;
       padding: 1.5em;
+      padding-left: 0;
       padding-top: 0;
       padding-right: 0;
     }
@@ -137,6 +149,7 @@
     .tela{
       margin: 2em;
       padding: 2.5em;
+      padding-left: 0;
       padding-top: 0;
       padding-right: 0;
     }
@@ -156,6 +169,7 @@
     .tela{
       margin: 2em;
       padding: 2.5em;
+      padding-left: 0;
       padding-top: 0;
       padding-right: 0;
     }
@@ -191,9 +205,15 @@
     text-align: center;
   }
 
+  
   .descricao{
     text-indent: 1.4em;
     text-align: justify;
     min-height: auto;
-    padding-right: 2.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+  @media(min-width: 600px){
+    .descricao{padding-right: 2.5em;}
   }

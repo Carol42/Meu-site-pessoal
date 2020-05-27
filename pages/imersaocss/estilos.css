@@ -8,7 +8,7 @@
 body {
   background: #000009;
   background-size: auto 100vh;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Patrick Hand', cursive;
   height: 100vh;
   font-size: 24px;
   padding: .5em;
@@ -41,14 +41,26 @@ body {
 }
 
 iframe{
-  width: 650px;
-  height: 450px;
+  width: 60vw;
+  height: 60vh;
   align-self: center;
   justify-self: center;
 }
 
+@media(min-width: 300px){
+  iframe{height: 40vh}
+}
+
+@media(min-width: 600px){
+  iframe{height: 60vw;}
+}
+
+.descDesafios{
+  padding-bottom: 1em;
+}
+
 h1{
-  font-family: 'VT323', monospace;
+  font-family: 'Merienda', cursive;
   margin-bottom: 1em;
   font-size: 2em;
   
@@ -213,5 +225,9 @@ figure{
   text-indent: 1.4em;
   text-align: justify;
   min-height: auto;
-  padding-right: 2.5em;
+  padding-right: 1em;
+}
+
+@media(min-width: 600px){
+  .descricao{padding-right: 2em;}
 }
