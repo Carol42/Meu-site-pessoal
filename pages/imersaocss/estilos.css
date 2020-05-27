@@ -55,6 +55,9 @@ iframe{
   iframe{height: 60vw;}
 }
 
+i{
+  position: fixed;
+}
 
 h1{
   font-family: 'Merienda', cursive;

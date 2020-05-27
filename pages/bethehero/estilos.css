@@ -15,12 +15,11 @@
     min-height: 100vh;
     color: thistle;
   }
-  
-  
+
   i{
     position: fixed;
   }
-      
+  
   .tela{
     border-top: 3px solid purple;
     border-left: 3px solid purple;
