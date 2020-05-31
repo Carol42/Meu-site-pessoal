@@ -4,27 +4,29 @@
   box-sizing: border-box;
   text-shadow: 5px 2px 4px black;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
-  background: #000009;
+  background-image: url("../../img/fundo.jpg");
   background-size: auto 100vh;
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Fira Code', monospace;
   height: 100vh;
-  font-size: 24px;
+  font-size: 18px;
   padding: .5em;
   min-height: 100vh;
   color: thistle;
 }
 
 .tela{
-  border-top: 3px solid purple;
-  border-left: 3px solid purple;
-  border-right: 3px solid purple;
+  background-color: #000009;
+  border: 3px solid #800080;
   padding: 2.5em;
   padding-top: 0;
   padding-right: 0;
   margin: 2em;
   margin-bottom: 5em;
+  min-height: 50vh;
 }
 
 .icones{
@@ -52,23 +54,30 @@ iframe{
 }
 
 @media(min-width: 600px){
-  iframe{height: 60vw;}
+  iframe{height: 60vh;}
 }
 
 i{
   position: fixed;
 }
 
+a i{
+  color: thistle;
+}
+
 h1{
-  font-family: 'Merienda', cursive;
+  font-family: 'VT323', monospace;
   margin-bottom: 1em;
   font-size: 2em;
+  color: #af1daf;
   
 }
 
 h2{
+  font-size: 2em;
   padding-bottom: 1em;
- 
+  font-family: 'VT323', monospace;
+  color: #af1daf;
 }
 
 h2::after,
@@ -99,7 +108,9 @@ h1::after {
 }
 
 a{
-  color: thistle;
+  text-decoration: none;
+  font-weight: 900;
+  color: #af1daf;
 }
 
 a:hover{

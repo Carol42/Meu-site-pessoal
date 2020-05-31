@@ -4,13 +4,15 @@
     box-sizing: border-box;
     text-shadow: 5px 2px 4px black;
   }
-  
+  html{
+    scroll-behavior: smooth;
+  }
   body {
-    background: #000009;
+    background-image: url("../../img/fundo.jpg");
     background-size: auto 100vh;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Fira Code', monospace;
     height: 100vh;
-    font-size: 24px;
+    font-size: 18px;
     padding: .5em;
     min-height: 100vh;
     color: thistle;
@@ -18,17 +20,18 @@
 
   i{
     position: fixed;
+    color: thistle;
   }
   
   .tela{
-    border-top: 3px solid purple;
-    border-left: 3px solid purple;
-    border-right: 3px solid purple;
+    background-color: #000009;
+    border: 3px solid purple;
     padding: 2.5em;
     padding-top: 0;
     padding-right: 0;
     margin: 2em;
     margin-bottom: 5em;
+    min-height: 50vh;
   }
   
   .icones{
@@ -64,6 +67,25 @@
     padding-right: 1.2em;
   }
 
+  #tela-certificado{
+    min-height: 65vh;
+  }
+
+  h1{
+    font-family: 'VT323', monospace;
+    margin-bottom: 1em;
+    font-size: 3em;
+    margin-left: 1px;
+    color: #af1daf;
+  }
+
+h2{
+  font-size: 2em;
+  padding-bottom: 1em;
+  font-family: 'VT323', monospace;
+  color: #af1daf;
+}
+
   @media(min-width: 300px){
     .certificado{
     width: 100%;
@@ -81,14 +103,14 @@
   }
   
   h1{
-    font-family:'Merienda', cursive;
+    font-family:'VT323', monospace;
     margin-bottom: 1em;
     font-size: 2em;
     
   }
   
   h2{
-    font-family:'Merienda', cursive;
+    font-family:'VT323', monospace;
     padding-bottom: 1em;
    
   }
@@ -121,7 +143,9 @@
   }
   
   a{
-    color: thistle;
+    text-decoration: none;
+    color: #af1daf;
+    font-weight: 900;
   }
   
   a:hover{
@@ -194,7 +218,7 @@
     }
   
     h1{
-      font-size: 2em;
+      font-size: 3em;
       text-align: start;
     }
   }
@@ -213,7 +237,7 @@
     }
   
     h1{
-      font-size: 2em;
+      font-size: 3em;
       text-align: start;
     }
   }
@@ -255,5 +279,64 @@
     text-align: justify;
     list-style: '>>>';
     text-indent: .7em;
-    font-family: 'Patrick Hand', cursive;
+  }
+  .fotos{
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .fotos:hover {opacity: 0.7;}
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+  }
+  
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  .modal-content{
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: thistle;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
   }

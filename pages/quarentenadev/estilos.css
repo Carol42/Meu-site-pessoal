@@ -4,13 +4,15 @@
     box-sizing: border-box;
     text-shadow: 5px 2px 4px black;
   }
-  
+  html{
+    scroll-behavior: smooth;
+  }
   body {
-    background: #000009;
+    background-image: url("../../img/fundo.jpg");
     background-size: auto 100vh;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Fira Code', monospace;
     height: 100vh;
-    font-size: 24px;
+    font-size: 18px;
     padding: .5em;
     min-height: 100vh;
     color: thistle;
@@ -20,15 +22,19 @@
     position: fixed;
   }
   .tela{
-    border-top: 3px solid purple;
-    border-left: 3px solid purple;
-    border-right: 3px solid purple;
+    background-color: #000009;
+    border: 3px solid purple;
     padding: 2.5em;
     padding-top: 0;
     padding-right: 0;
     padding-left: 0;
     margin: 2em;
     margin-bottom: 5em;
+    
+  }
+
+  #tela-codigos{
+    min-height: 90vh;
   }
 
   .icones{
@@ -40,10 +46,11 @@
   }
   
   h1{
-    font-family: 'Merienda', cursive;
+    font-family: 'VT323', monospace;
     margin-bottom: 1em;
     font-size: 3em;
     margin-left: 1px;
+    color: #af1daf;
   }
 
 
@@ -73,8 +80,14 @@
 
   }
 
-  a{
+  a i{
     color: thistle;
+  }
+
+  a{
+    color: #af1daf;
+    text-decoration: none;
+    font-weight: 900;
   }
 
   a:hover{

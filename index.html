@@ -9,121 +9,61 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Merienda:wght@400;700&family=Patrick+Hand&css2?family=VT323&css2?family=DM+Mono&display=swap"
     rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
 
   <script src="https://kit.fontawesome.com/6d6952c5be.js" crossorigin="anonymous"></script>
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  
-   <div class="wrap">
+  <button onclick="topFunction()" id="topButton" title="Voltar ao topo">Topo</button>
+  <div class="wrap">
     <div class="menu">
-      
       <a href="javascript:void(0);" class="icon" onclick="showMenu()">
         <i class="fa fa-bars"></i>
       </a>
-      <a class="active"></a>A</a>
+      <a class="active">```</a>
       <div id="myLinks">
         <a href="#tela-home" onclick="hideMenu()">Home</a>
+        <hr class="linha-menu">
         <a href="#tela-sobre" onclick="hideMenu()">Sobre</a>
-        <a href="#tela-portfolio" onclick="hideMenu()">Projetos</a>
+        <hr class="linha-menu">
+        <a href="#tela-portfolio" onclick="hideMenu()">Projetos e Estudos</a>
+        <hr class="linha-menu">
+        <a href="#tela-cursos" onclick="hideMenu()">Cursos e Conquistas</a>
+        <hr class="linha-menu">
         <a href="#tela-contato" onclick="hideMenu()">Contato</a>
+
       </div>
     </div>
-   </div>
-    
-<section class="home">
-  <div class="tela" id="tela-home">
-    <table class="icones">
-      <tr>
-        <th>
-          _ ˻ ˼ X
-        </th>
-      </tr>
-    </table>
-  
+  </div>
+
+  <section class="home">
+    <div class="tela" id="tela-home">
+      <table class="icones">
+        <tr>
+          <th>
+            _ &lfloor;&rfloor; X
+          </th>
+        </tr>
+      </table>
+
       <div class="titulo">
         <h1 class="site-title">${Caroline Heloíse de Oliveira}</h1>
         <h2 class="site-subtitle">function (jr. frontend developer){</h2>
       </div>
-  </div>
-</section>
-  <div class="tela" id="tela-sobre">
-    <table class="icones">
-      <tr>
-        <th>
-          _ ˻ ˼ X
-        </th>
-      </tr>
-    </table>
-    <section class="sobre container" id="sobre">
-      <h2>Sobre</h2>
-
-    <ul>
-      <li>(Quase) formada em Técnico em Administração;</li>
-      <li>Professora de inglês;</li>
-      <li>Apaixonada por aprender novos idiomas (falo inglês, espanhol e me arrisco no francês);</li>
-      <li>Viciada em solucionar problemas;</li>
-      <li>Desenvolvedora em desenvolvimento;</li>
-      <li>Linguagens: JavaScript, HTML, CSS, SQL, Python, C;</li>
-      <li>function findQuestion(42)</li>
-    </ul>
-
-      <p>
-        PS: Este site foi construído durante a
-        <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a>
-        😻
-      </p>
-    </section>
-  </div>
-  <div class="tela" id="tela-portfolio">
-    <table class="icones">
-      <tr>
-        <th>
-          _ ˻ ˼ X
-        </th>
-      </tr>
-    </table>
-    <section class="portfolio container" id="portfolio">
-      <h2>Projetos e Estudos</h2>
-
-      <div class="grid">
-        <a href="pages/quarentenadev/quarentenadev.html">
-          <figure>
-            <img class="img-portfolio" src="./img/quarentenadev.png" alt="QuarentenaDev">
-            <figcaption>QuarentenaDev</figcaption>
-          </figure>
-        </a>
-        <a href="pages/imersaocss/imersaocss.html">
-        <figure>
-          <img class="img-portfolio" src="./img/imersaocss.png" alt="ImersãoCSS">
-          <figcaption>ImersãoCSS</figcaption>
-        </figure>
-      </a>
-      <a href="pages/bethehero/bethehero.html">
-        <figure>
-          <img class="img-portfolio" src="./img/semanaomnistack.png" alt="Semana Omnistack 11">
-          <figcaption>Semana Omnistack</figcaption>
-        </figure>
-      </a>
-      </div>
-    </section>
-  </div>
-  <div class="tela" id="tela-contato">
-    <table class="icones">
-      <tr>
-        <th>
-          _ ˻ ˼ X
-        </th>
-      </tr>
-    </table>
-    <section class="contato container" id="contato">
+    </div>
+    <div class="tela contato" id="tela-contato">
+      <table class="icones">
+        <tr>
+          <th>
+            _ &lfloor;&rfloor; X
+          </th>
+        </tr>
+      </table>
       <h2>Contato</h2>
-
       <div class="grid icons">
         <a target="_blank" href="https://github.com/Carol42">
           <i class="fab fa-github"></i>
@@ -138,8 +78,236 @@
           <i class="fab fa-instagram"></i>
         </a>
       </div>
+
+  </section>
+
+  <div class="tela" id="tela-sobre">
+    <table class="icones">
+      <tr>
+        <th>
+          _ &lfloor;&rfloor; X
+        </th>
+      </tr>
+    </table>
+    <section class="sobre container" id="sobre">
+      <h2>Sobre</h2>
+
+      <ul>
+        <li>(Quase) formada em Técnico em Administração;</li>
+        <li>Professora de inglês;</li>
+        <li>Apaixonada por aprender novos idiomas (falo inglês, espanhol e me arrisco no francês);</li>
+        <li>Viciada em solucionar problemas;</li>
+        <li>Desenvolvedora em desenvolvimento;</li>
+        <li>Linguagens: JavaScript, HTML, CSS, SQL, Python, C;</li>
+        <li>function findQuestion(42)</li>
+      </ul>
     </section>
   </div>
+  <div class="tela" id="tela-portfolio">
+    <table class="icones">
+      <tr>
+        <th>
+          _ &lfloor;&rfloor; X
+        </th>
+      </tr>
+    </table>
+    <section class="portfolio container" id="portfolio">
+      <h2>Projetos e Estudos</h2>
+
+      <div class="grid">
+        <a href="pages/quarentenadev/quarentenadev.html">
+          <figure>
+            <img class="img-portfolio" src="./img/quarentenadev.png" alt="QuarentenaDev">
+            <figcaption>QuarentenaDev</figcaption>
+          </figure>
+        </a>
+        <a href="pages/imersaocss/imersaocss.html">
+          <figure>
+            <img class="img-portfolio" src="./img/imersaocss.png" alt="ImersãoCSS">
+            <figcaption>ImersãoCSS</figcaption>
+          </figure>
+        </a>
+        <a href="pages/bethehero/bethehero.html">
+          <figure>
+            <img class="img-portfolio" src="./img/semanaomnistack.png" alt="Semana Omnistack 11">
+            <figcaption>Semana Omnistack</figcaption>
+          </figure>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <div class="tela" id="tela-cursos">
+    <table class="icones">
+      <tr>
+        <th>
+          _ &lfloor;&rfloor; X
+        </th>
+      </tr>
+    </table>
+    <section class="cursos">
+      <h2>Cursos e Conquistas</h2>
+      <p>Aqui um compilado dos cursos que fiz separados por categoria</p>
+      <p>(Clique nas imagens para ampliar)</p>
+
+
+      <div class="drops">
+        <label for="toggle-1">
+          <div class="etiqueta">Informática <img class="seta" src="img/seta.png" alt="seta"></div>
+        </label>
+        <input type="checkbox" id="toggle-1">
+        <hr class="linha">
+        <div id="mostra1">
+          <div>
+            <p><img class="fotos" src="img/logica.jpg" alt="lógica de programação" />Lógica de programação e algoritmos
+            </p>
+            <p>Curso que completei em 2019 e que foi a minha porta de entrada no universo da programação.</p>
+            <p>Aprendi a pensar de forma lógica, a montar algoritmos e o básico da linguagem C. Criei scripts de
+              cálculo, cadastro de clientes, validação, votação, jogo da velha com IA, entre outros.</p>
+          </div>
+          <hr class="linha">
+          <div>
+            <p><img class="fotos" src="img/hardware.jpg" alt="hardware">Hardware - Montagem e Manutenção de Computadores
+            </p>
+            <p>Curso que completei em 2018 e foi o que despertou minha paixão por tecnologia.</p>
+            <p>Aprendi como funciona um computador, a função de cada peça, como identificar os problemas mais comuns e,
+              principalmente, aprendi a formatar o disco, o que me levou a adentrar no universo Linux, plataforma que
+              uso atualmente e que abriu minha mente me proporcionando muito aprendizado.</p>
+          </div>
+          <hr class="linha">
+          <div>
+            <p><img class="fotos" src="img/webdesign.jpg" alt="web design"></p>
+            <p>Curso que fiz ainda criança, que me deu noções de como fazer animações e como utilizar ferramentas de
+              desenho e edição de imagens.</p>
+            <p>Ferramentas utilizadas: Photoshop, Corel Draw, Dreamweaver e Flash.</p>
+            <p>Também foram abordados tópicos introdutórios em HTML e Banco de Dados.</p>
+          </div>
+          <hr class="linha">
+          <div>
+            <p><img class="fotos" src="img/designgrafico.jpg" alt="design gráfico">Curso onde aprendi a lidar com
+              ferramentas de desenho e de edição de imagens. Foi um curso muito bom para estimular minha criatividade e
+              percepção de cores.</p>
+            <p>Ferramentas utilizadas: Photoshop e Corel Draw.</p>
+          </div>
+          <hr class="linha">
+          <div>
+            <p><img class="fotos" src="img/infbasica.jpg" alt="Informática básica">Primeiro curso de informática que fiz
+              quando tinha apenas 8 anos. Nele, aprendi a usar os principais softwares de computador, o Pacote Office e
+              navegadores de internet.</p>
+          </div>
+          <hr class="linha">
+        </div>
+
+        <label for="toggle-2">
+          <div class="etiqueta">Idiomas <img class="seta" src="img/seta.png" alt="seta"></div>
+        </label>
+        <input type="checkbox" id="toggle-2">
+        <hr class="linha">
+        <div id="mostra2">
+          <div>
+            <p>
+              <img class="fotos" src="img/wizard2.jpg" alt="ingles">Certificado que obtive após completar o livro W10 da
+              Wizard, em 2019
+            </p>
+          </div>
+          <hr class="linha">
+          <div>
+            <p><img class="fotos" src="img/wizard1.jpg" alt="ingles">Certificado que obtive após completar a série Teens
+              da Wizard, em 2016</p>
+          </div>
+          <hr class="linha">
+          <div>
+            <p><img class="fotos" src="img/celem.jpg" alt="espanhol">Certificado que obtive após completar o curso de
+              espanhol oferecido pelo CELEM do estado do Paraná</p>
+          </div>
+          <hr class="linha">
+        </div>
+
+        <label for="toggle-3">
+          <div class="etiqueta">Administração <img class="seta" src="img/seta.png" alt="seta"></div>
+        </label>
+        <input type="checkbox" id="toggle-3">
+        <hr class="linha">
+        <div id="mostra3">
+          <div>
+            <p><img class="fotos" src="img/nocoesadm.jpg" alt="noções administrativas">Este foi um curso rápido e
+              gratuito que participei onde foram tratados assuntos sobre administração, mercado de trabalho, carreira,
+              motivação, comunicção, finanças, liderança, trabalho em equipe, solução de conflitos, entre outros.</p>
+            <p>Apesar de ter sido curto, me trouxe muitos conhecimentos valiosos e me fez refletir sobre questões
+              relacionadas a carreira e objetivos pessoais.</p>
+          </div>
+          <hr class="linha">
+          <div>
+            <p><img class="fotos" src="img/palestras2018.jpg" alt="palestras">Ciclo de palestras promovido pelo curso
+              Técnico em Administração no ano de 2018</p>
+          </div>
+          <hr class="linha">
+          <div>
+            <p><img class="fotos" src="img/palestras2017.jpg" alt="ciclo de palestras">Ciclo de palestras oferecidas
+              pelo curso Técnico em Administração em 2017. As palestras desse ano contaram com as temáticas: Como fazer
+              boas apresentações orais e Gestão de conflitos</p>
+          </div>
+          <hr class="linha">
+          <div>
+            <p><img class="fotos" src="img/palestrainovacao.jpg" alt="palestra sobre inovação">Palestra proferida por
+              Amauri Crozariolli com a temática Inovação nos negócios em 2017. Essa palestra nos trouxe uma visão sobre
+              as mudanças que estão acontecendo no mundo, nos trazendo exemplos históricos de como pessoas encontraram
+              soluções simples para grandes problemas e nos deixou com a reflexão do que podemos fazer para mudarmos
+              nossa realidade hoje.</p>
+          </div>
+          <hr class="linha">
+        </div>
+
+        <label for="toggle-4">
+          <div class="etiqueta">Conquistas <img class="seta" src="img/seta.png" alt="seta"></div>
+        </label>
+        <input type="checkbox" id="toggle-4">
+        <div id="mostra4">
+          <div>
+            <hr class="linha">
+            <p><img id="xadrez" class="fotos" src="img/xadrez.jpg" alt="xadrez">Atingi o 3º lugar na modalidade de
+              Xadrez Feminino nos Jogos Estudantis de Palmeira-PR em 2019.</p>
+          </div>
+          <hr class="linha">
+          <div>
+            <p><img class="fotos" id="nota" src="img/nota1bi.jpg" alt="aluna boa de nota 1"> <img class="fotos"
+                id="nota" src="img/nota2bi.jpg" alt="aluna boa de nota 2"><img class="fotos" id="nota"
+                src="img/nota3bi.jpg" alt="aluna boa de nota 3"></p>
+          </div>
+          <div>
+            <p>Recebi reconhecimento por ter atingido o primeiro lugar na média geral de minha turma diversas vezes.</p>
+          </div>
+          <div>
+            <hr class="linha">
+            <p><img class="fotos" src="img/maratonaintelectual.jpg" alt="maratona intelectual">Participei da 3º edição
+              da Maratona Intelectual promovida pelo Rotary Club de Palmeira-PR em 2012.</p>
+            <p>Atingi o 3º lugar e minha premiação foi um rádio.</p>
+          </div>
+          <hr class="linha">
+          <div>
+            <p><img class="fotos" src="img/rep2ano.jpg" alt="representante de turma"> <img class="fotos"
+                src="img/rep3ano.jpg" alt="representante de turma">Fui eleita como representante de turma por dois anos
+              consecutivos (2018 e 2019)</p>
+          </div>
+          <hr class="linha">
+        </div>
+      </div>
+  </div>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <div id="zoomImage" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+  </div>
+
+  <footer>
+    <address>
+      <p>Desenvolvido por &copy;Caroline Heloíse de Oliveira, 2020</p>
+      <a href="mailto:caroline.heliose@gmail.com">caroline.heliose@gmail.com</a>
+    </address>
+  </footer>
+
   <script src="funcoes.js"></script>
 </body>
 
