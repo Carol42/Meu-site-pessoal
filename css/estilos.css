@@ -605,8 +605,31 @@ label {
   height: 35%;
   float: left;
   padding-right: 1em;
-  padding-bottom: .5em;
+  padding-bottom: .1em;
+  cursor: pointer;
+  transition: 0.3s;
 }
+.fotos:hover {opacity: 0.7;}
+
+@media(min-width:300px){
+  .fotos{
+    width: 60%;
+    height:60%;
+  }
+}
+@media(min-width:550px){
+  .fotos{
+    width: 45%;
+    height:45%;
+  }
+}
+@media(min-width:850px){
+  .fotos{
+    width: 35%;
+    height:35%;
+  }
+}
+
 #nota{
   width: 33%;
   height: 33%;
@@ -654,15 +677,6 @@ hr.linha-menu{
   color: #800080;
 }
 
-
-
- .fotos{
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.fotos:hover {opacity: 0.7;}
-
 .modal {
   display: none;
   position: fixed;
@@ -682,9 +696,6 @@ hr.linha-menu{
   display: block;
   width: 80%;
   max-width: 700px;
-}
-
-.modal-content{
   animation-name: zoom;
   animation-duration: 0.6s;
 }
