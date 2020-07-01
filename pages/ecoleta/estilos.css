@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-shadow: 5px 2px 4px black;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  body {
+    background-image: url("../../img/fundo.jpg");
+    background-size: auto 100vh;
+    font-family: 'Fira Code', monospace;
+    height: 100vh;
+    font-size: 18px;
+    padding: .5em;
+    min-height: 100vh;
+    color: thistle;
+  }
+
+  i{
+    position: fixed;
+  }
+  .tela{
+    background-color: #000009;
+    border: 3px solid purple;
+    padding: 2.5em;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 2em;
+    margin-bottom: 5em;  
+  }
+
+
+  .icones{
+    color: purple;
+    width: 100%;
+    text-align: end;
+    font-weight: 900;
+    font-size: xx-large;
+  }
+  
+  h1{
+    font-family: 'VT323', monospace;
+    margin-bottom: 1em;
+    font-size: 3em;
+    margin-left: 1px;
+    color: #af1daf;
+  }
+  h1::after {
+    content: '_';
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+    
+   }
+   @keyframes pisca {
+     0%, 100%{
+       opacity: 1;
+     }
+     50%{
+       opacity: 0;
+     }
+   }
+
+  a i{
+    color: thistle;
+  }
+
+  a{
+    color: #af1daf;
+    text-decoration: none;
+    font-weight: 900;
+  }
+
+  a:hover{
+    color: paleturquoise;
+  }
+
+ @media(min-width: 360px){
+    .tela{
+      margin: .3em;
+      margin-bottom: 2em;
+      padding: 1em;
+      padding-left: 0;
+      padding-top: 0;
+      padding-right: 0;
+    }
+
+    h1{
+      font-size: 2em;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 560px) {
+    .tela{
+      margin: 1em;
+      padding: 1.5em;
+      padding-left: 0;
+      padding-top: 0;
+      padding-right: 0;
+      
+    }
+
+    h1{
+      font-size: 2em;
+      text-align: start;
+      padding-left: 1em;
+    }
+  }
+
+  @media (min-width: 666px) {
+    .tela{
+      margin: 1em;
+      padding: 1.5em;
+      padding-left: 0;
+      padding-top: 0;
+      padding-right: 0;
+    }
+
+    h1{
+      font-size: 2em;
+      text-align: start;
+    }
+  }
+  
+  @media (min-width: 880px) {
+    .tela{
+      margin: 2em;
+      padding: 2.5em;
+      padding-left: 0;
+      padding-top: 0;
+      padding-right: 0;
+    }
+
+    h1{
+      font-size: 2em;
+      text-align: start;
+    }
+  }
+
+  @media (min-width: 964px) {
+    .tela{
+      margin: 2em;
+      padding: 2.5em;
+      padding-left: 0;
+      padding-top: 0;
+      padding-right: 0;
+    }
+
+    h1{
+      font-size: 2em;
+      text-align: start;
+    }
+  }
+
+  .descricao{
+    text-indent: 1.4em;
+    text-align: justify;
+    min-height: auto;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+  @media(min-width: 600px){
+    .descricao{padding-right: 2.5em;}
+  }
+
+.app{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2em;
+}
+  .layout{
+    width: 85%;
+    height: 90%;
+    align-self: center;
+    justify-self: center;
+    padding-top: 1em;
+  }
