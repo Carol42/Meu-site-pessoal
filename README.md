@@ -45,8 +45,10 @@ Eu gosto de poder olhar pra trás nos meus primeiros códigos e observar a minha
 
 <p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=800080&style=flat&logo" alt="voltar ao topo" /></a></p>
 
+<div align='center'>
 <img src='./img/screenshot-1.png' align='center' width='80%' alt='screenshsot da página' />
-
+</div>
+    
 ## :wrench: Tecnologias e recursos utilizados
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -54,7 +56,9 @@ Eu gosto de poder olhar pra trás nos meus primeiros códigos e observar a minha
 - [Font Awesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
 
-<img src='./img/screenshot-2.png' align='center' width='80%' alt='screenshot da página' />
+<div align='center'>
+<img src='./img/screenshot-2.png' width='80%' alt='screenshot da página' />
+</div>
 
 <p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=800080&style=flat&logo" alt="voltar ao topo" /></a></p>
 
