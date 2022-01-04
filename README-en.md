@@ -31,7 +31,7 @@
         <li><a href="#diving_mask-the-immersion">The Immersion</a></li>
         <li><a href="#wrench-technologies">Technologies</a></li>
         <li><a href="#computer-how-to-download-the-project">How to download the project</a></li>
-        <li><a href="#woman_technologist-a-desenvolvedora">The developer</a></li>
+        <li><a href="#woman_technologist-the-developer">The developer</a></li>
     </ol>
 </details>
 
