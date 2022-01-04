@@ -45,7 +45,7 @@ Eu gosto de poder olhar pra trás nos meus primeiros códigos e observar a minha
         <img src='./img/screenshot-1.png' width='70%' alt='screenshsot da página' />
     </div>
     <div>
-        <img src='./img/screenshot-mobile.png' width='10%' alt='screenshsot da página no celular' />
+        <img src='./img/screenshot-mobile.jpeg' width='10%' alt='screenshsot da página no celular' />
     </div>
 </div>
 
