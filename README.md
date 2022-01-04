@@ -28,6 +28,7 @@
     <summary>Sumário</summary>
     <ol>
         <li><a href="#pushpin-sobre">Sobre</a></li>
+        <li><a href="#diving_mask-a-imersão">A Imersão</a></li>
         <li><a href="#wrench-tecnologias-e-recursos-utilizados">Tecnologias e recursos utilizados</a></li>
         <li><a href="#computer-como-baixar-e-rodar-o-projeto">Como baixar e rodar o projeto</a></li>
         <li><a href="#woman_technologist-a-desenvolvedora">A desenvolvedora</a></li>
@@ -37,17 +38,29 @@
 ## :pushpin: Sobre
 Essa foi a primeira página web que eu desenvolvi e que me motivou a seguir no mundo da programação.
 
-O site foi desenvolvido durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS</a>, promovida pela <a href="https://www.alura.com.br/">Alura</a> e ministrada pelas instrutoras <a href="https://twitter.com/vanessametonini">Vanessa Tonini</a> e <a href="https://twitter.com/aquijuz">Juliana Amoasei</a>, com a participação especial de <a href="https://twitter.com/paulo_caelum">Paulo Silveira</a> entre os dias 11 e 15 de maio de 2020.
-
-Além da criação do portfólio, foram propostos dois desafios: <a href="https://codepen.io/Carol42/pen/zYvQMGe">Loaders</a> e <a href="https://codepen.io/Carol42/pen/zYvXdmp">Abertura do Star Wars</a>.
-
 Eu gosto de poder olhar pra trás nos meus primeiros códigos e observar a minha evolução, portanto não pretendo tirar esse site do ar ou fazer alterações posteriores. Apenas adicionei esse README para que eu pudesse documentar alguns pontos importantes sobre ele.
+
+<div>
+    <div>
+        <img src='./img/screenshot-1.png' width='70%' alt='screenshsot da página' />
+    </div>
+    <div>
+        <img src='./img/screenshot-mobile.png' width='10%' alt='screenshsot da página no celular' />
+    </div>
+</div>
 
 <p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=800080&style=flat&logo" alt="voltar ao topo" /></a></p>
 
-<div align='center'>
-<img src='./img/screenshot-1.png' align='center' width='80%' alt='screenshsot da página' />
-</div>
+## :diving_mask: A Imersão
+
+O site foi desenvolvido durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS</a>, promovida pela <a href="https://www.alura.com.br/">Alura</a> e ministrada pelas instrutoras <a href="https://twitter.com/vanessametonini">Vanessa Tonini</a> e <a href="https://twitter.com/aquijuz">Juliana Amoasei</a>, com a participação especial de <a href="https://twitter.com/paulo_caelum">Paulo Silveira</a> entre os dias 11 e 15 de maio de 2020.
+
+Os principais assuntos abordados foram: introdução ao CSS, deploy,  posicionamento, design responsivo, CSS grid, fontes e ícones, animações e efeitos.
+
+Além da criação do portfólio, foram propostos dois desafios no CodePen: <a href="https://codepen.io/Carol42/pen/zYvQMGe">Loaders</a> e <a href="https://codepen.io/Carol42/pen/zYvXdmp">Abertura do Star Wars</a>.
+
+<p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=800080&style=flat&logo" alt="voltar ao topo" /></a></p>
+
     
 ## :wrench: Tecnologias e recursos utilizados
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
