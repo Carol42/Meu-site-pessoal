@@ -41,12 +41,8 @@ Essa foi a primeira página web que eu desenvolvi e que me motivou a seguir no m
 Eu gosto de poder olhar pra trás nos meus primeiros códigos e observar a minha evolução, portanto não pretendo tirar esse site do ar ou fazer alterações posteriores. Apenas adicionei esse README para que eu pudesse documentar alguns pontos importantes sobre ele.
 
 <div>
-    <div>
-        <img src='./img/screenshot-1.png' width='70%' alt='screenshsot da página' />
-    </div>
-    <div>
-        <img src='./img/screenshot-mobile.jpeg' width='10%' alt='screenshsot da página no celular' />
-    </div>
+   <img src='./img/screenshot-1.png' width='70%' alt='screenshsot da página' />
+   <img src='./img/screenshot-mobile.jpeg' width='10%' alt='screenshsot da página no celular' />
 </div>
 
 <p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=800080&style=flat&logo" alt="voltar ao topo" /></a></p>
