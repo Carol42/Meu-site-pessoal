@@ -21,7 +21,7 @@
 </div>
 
 <h3 align='center'>:link:<a href='https://meu-site-pessoal-carol42.vercel.app/' target='_blank'> Go to the preview</a></h3>
-<h4 align="center">:brazil: <a href="./README-en.md">Ir para a versão em Português deste README »</a>
+<h4 align="center">:brazil: <a href="./README.md">Ir para a versão em Português deste README »</a>
 </h4>
 
 <details>
