@@ -65,10 +65,6 @@ Besides the development of the portfolio, two more challenges were proposed on C
 - [Font Awesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
 
-<div align='center'>
-<img src='./img/screenshot-2.png' width='80%' alt='page screenshot' />
-</div>
-
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back to top&color=800080&style=flat&logo" alt="back to top" /></a></p>
 
 ## :computer: How to download the project
