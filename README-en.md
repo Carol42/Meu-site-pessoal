@@ -42,7 +42,7 @@ I like to be able to look back and see my very first pieces of code and observe 
 
 <div>
    <img src='./img/screenshot-1.png' width='70%' alt='page screenshot' />
-   <img src='./img/screenshot-mobile.jpeg' width='20%' alt='mobile screenshot' />
+   <img src='./img/screenshot-mobile.png' width='20%' alt='mobile screenshot' />
 </div>
 
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back to top&color=800080&style=flat&logo" alt="back to top" /></a></p>
