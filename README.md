@@ -42,7 +42,7 @@ Eu gosto de poder olhar pra trás nos meus primeiros códigos e observar a minha
 
 <div>
    <img src='./img/screenshot-1.png' width='70%' alt='screenshsot da página' />
-   <img src='./img/screenshot-mobile.jpeg' width='20%' alt='screenshsot da página no celular' />
+   <img src='./img/screenshot-mobile.png' width='20%' alt='screenshsot da página no celular' />
 </div>
 
 <p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=800080&style=flat&logo" alt="voltar ao topo" /></a></p>
