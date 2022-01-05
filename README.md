@@ -65,10 +65,6 @@ Além da criação do portfólio, foram propostos dois desafios no CodePen: <a h
 - [Font Awesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
 
-<div align='center'>
-<img src='./img/screenshot-2.png' width='80%' alt='screenshot da página' />
-</div>
-
 <p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=800080&style=flat&logo" alt="voltar ao topo" /></a></p>
 
 ## :computer: Como baixar e rodar o projeto
