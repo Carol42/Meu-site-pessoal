@@ -12,6 +12,7 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Carol42/Meu-site-pessoal?color=F05032&logo=git&logoColor&style=plastic">
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Carol42/Meu-site-pessoal?color=E34F26&logo=html5&style=plastic">
     <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Carol42/Meu-site-pessoal?style=plastic&color=800080">
+    <img alt="date created" src="https://badges.pufler.dev/created/Carol42/Meu-site-pessoal?style=plastic&color=800080">
     <img src="https://img.shields.io/static/v1?label=✔ status&message=concluído&color=393&style=plastic&logo=" alt="status: concluído"/>
 </div>
 
