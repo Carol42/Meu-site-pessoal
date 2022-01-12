@@ -1,11 +1,13 @@
 <div id="topo"></div>
 <h1 align='center'>
-    <img src='./img/meu-site-pessoal.png' width='70%' alt='meu site pessoal'>
+    <img src='https://github.com/Carol42/Meu-site-pessoal/blob/main/img/meu-site-pessoal.png' width='70%' alt='meu site pessoal'>
 </h1>
 
 <h2 align='center'>Minha primeira página web</h2>
 
 <p align="center"><i>“Don't think you are, know you are" ~Morpheus, 'The Matrix' (1999)</i> </p>
+
+<h3 align='center'>:link:<a href='https://meu-site-pessoal-carol42.vercel.app/' target='_blank'> Acessar a demonstração</a></h3>
 
 <div align="center">
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Carol42/Meu-site-pessoal?color=181717&logo=github&style=plastic&logoColor=181717">
@@ -21,10 +23,14 @@
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Carol42/Meu-site-pessoal?style=social">
 </div>
 
-<h3 align='center'>:link:<a href='https://meu-site-pessoal-carol42.vercel.app/' target='_blank'> Acessar a demonstração</a></h3>
+<table align="right">
+ <tr><td><a href="https://github.com/Carol42/Meu-site-pessoal/blob/main/README-en.md">:us: English</a></td></tr>
+ <tr><td><a href="https://github.com/Carol42/Meu-site-pessoal/blob/main/README.md">:brazil: Português</a></td></tr>
+</table>
+<!--
 <h4 align="center">:us::gb: <a href="./README-en.md">Go to the English version of this README »</a>
 </h4>
-
+-->
 <details>
     <summary>Sumário</summary>
     <ol>
@@ -42,8 +48,8 @@ Essa foi a primeira página web que eu desenvolvi e que me motivou a seguir no m
 Eu gosto de poder olhar pra trás nos meus primeiros códigos e observar a minha evolução, portanto não pretendo tirar esse site do ar ou fazer alterações posteriores. Apenas adicionei esse README para que eu pudesse documentar alguns pontos importantes sobre ele.
 
 <div>
-   <img src='./img/screenshot-1.png' width='70%' alt='screenshsot da página' />
-   <img src='./img/screenshot-mobile.png' width='20%' alt='screenshsot da página no celular' />
+   <img src='https://github.com/Carol42/Meu-site-pessoal/blob/main/img/screenshot-1.png' width='70%' alt='screenshsot da página' />
+   <img src='https://github.com/Carol42/Meu-site-pessoal/blob/main/img/screenshot-mobile.png' width='20%' alt='screenshsot da página no celular' />
 </div>
 
 <p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=800080&style=flat&logo" alt="voltar ao topo" /></a></p>
