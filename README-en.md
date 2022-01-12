@@ -1,6 +1,6 @@
 <div id="top"></div>
 <h1 align='center'>
-    <img src='./img/my-personal-website.png' width='70%' alt='my personal website'>
+    <img src='https://github.com/Carol42/Meu-site-pessoal/blob/main/img/my-personal-website.png' width='70%' alt='my personal website'>
 </h1>
 
 <h2 align='center'>My first web page</h2>
@@ -24,6 +24,11 @@
 <h4 align="center">:brazil: <a href="./README.md">Ir para a versão em Português deste README »</a>
 </h4>
 
+<table align="right">
+ <tr><td><a href="https://github.com/Carol42/Meu-site-pessoal/blob/main/README-en.md">:us: English</a></td></tr>
+ <tr><td><a href="https://github.com/Carol42/Meu-site-pessoal/blob/main/README.md">:brazil: Português</a></td></tr>
+</table>
+
 <details>
     <summary>Table of Contents</summary>
     <ol>
@@ -41,8 +46,8 @@ This is the first webpage I've developed and it was what motivated me to follow 
 I like to be able to look back and see my very first pieces of code and observe my evolution. Therefore, I'm not going to delete this project or make any modifications. I just added this README so I can document some important points about it.
 
 <div>
-   <img src='./img/screenshot-1.png' width='70%' alt='page screenshot' />
-   <img src='./img/screenshot-mobile.png' width='20%' alt='mobile screenshot' />
+   <img src='https://github.com/Carol42/Meu-site-pessoal/blob/main/img/screenshot-1.png' width='70%' alt='page screenshot' />
+   <img src='https://github.com/Carol42/Meu-site-pessoal/blob/main/img/screenshot-mobile.png' width='20%' alt='mobile screenshot' />
 </div>
 
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back to top&color=800080&style=flat&logo" alt="back to top" /></a></p>
